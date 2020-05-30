@@ -1,0 +1,111 @@
+* {
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-transform: capitalize;
+}
+
+#blog {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.25);
+    z-index: 101;
+    display: visible;
+}
+
+#menu {
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 2%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    line-height: 125%;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    z-index: 100;
+}
+
+#geolocation {
+    display: block;
+    position: fixed;
+    top: 30%;
+    right: 10px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    line-height: 125%;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    z-index: 100;
+    text-transform: capitalize;
+}
+
+#diagnostics {
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 2%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    line-height: 125%;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    z-index: 100;
+}
+
+
+
+
+h1 {
+    font-size: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow:0 0 10px #ff0000;
+    font-weight: bold;
+    text-align: center;
+    /*text-transform: capitalize;*/
+    font-stretch: ultra-expanded;
+    z-index: 102;
+    display: visible;
+}
+
+body {
+	background-color: #000000;
+    color: #ff4d4d;
+    font-family: "Lucida console";
+    font-size: 16px;
+    perspective: 500px;
+    perspective-origin: center top;
+    z-index: -2;
+}
+
+
+
+#parentCanvas {
+    position: fixed;
+    padding: 50px;
+    margin: auto;
+    top: 10%;
+    position: relative;
+    /*perspective: 800px;*/
+}
+
+#canvas  {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    top: 10%;
+    bottom: 10%;
+	height: 75%;
+    width: 75%;
+    border-style: 10px solid #ffff80;
+    z-index: 1;
+    /*transform: rotateX(45deg);*/
+}
+  
